@@ -1,0 +1,235 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="A visual introduction to Peking Opera role categories, framed as a first evening at a Shanghai theatre." />
+    <title>Enter the Stage — A Peking Opera Role Explorer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500;1,600&family=DM+Mono:wght@400;500&family=Noto+Serif+SC:wght@600;700&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#explore">Skip to the programme</a>
+
+    <header class="site-header">
+      <p class="eyebrow">SHANGHAI · AN IMAGINED FIRST EVENING</p>
+      <div class="header-row">
+        <a class="wordmark" href="#top" aria-label="Enter the Stage home">ENTER <span>THE</span> STAGE</a>
+        <p class="ticket-number">PROGRAMME No. 04<br />VISITOR EDITION</p>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-stage">
+          <div class="curtain curtain-left"></div>
+          <div class="curtain curtain-right"></div>
+          <div class="hero-badge" aria-hidden="true"><span>天</span><b>蟾</b><i>戏院</i></div>
+          <div class="hero-copy">
+            <p class="section-number">01 / AT THE DOOR</p>
+            <h1 id="hero-title">Your first evening<br /><em>at the theatre.</em></h1>
+            <p class="intro">An imagined Shanghai theatre. Four first encounters with the Peking Opera stage.</p>
+            <input class="hero-curtain-input" type="checkbox" id="hero-curtain" />
+            <label class="button button-primary hero-curtain-button" for="hero-curtain" aria-label="Enter the theatre and raise the curtain"><span class="enter-character" aria-hidden="true">入</span><span class="enter-word" aria-hidden="true">ENTER</span></label>
+          </div>
+          <div class="stage-arch">
+            <div class="moon"></div>
+            <div class="theatre-sign">
+              <span>SHANGHAI THEATRE PROGRAMME</span>
+              <strong>天蟾大剧院</strong>
+              <small>TIANCHAN GRAND THEATRE</small>
+            </div>
+          </div>
+          <p class="stage-direction direction-enter" aria-hidden="true"><b>入</b><span>ENTER</span></p>
+          <p class="stage-direction direction-exit" aria-hidden="true"><b>出</b><span>EXIT</span></p>
+          <div class="footlights"><i></i><i></i><i></i><i></i><i></i></div>
+        </div>
+      </section>
+
+      <section class="arrival-note" aria-label="How to use this experience">
+        <span class="seal" aria-hidden="true">入</span>
+        <p><strong>A gentle first step.</strong> Look first. Guess later.</p>
+      </section>
+
+      <section class="role-explorer" id="explore" aria-labelledby="explore-title">
+        <div class="section-heading">
+          <div>
+            <p class="section-number">02 / THE PROGRAMME</p>
+            <h2 id="explore-title">Choose a role to meet</h2>
+          </div>
+          <p class="section-note">Four broad role categories. One visual doorway.</p>
+        </div>
+
+        <div class="role-controls" role="radiogroup" aria-label="Choose a Peking Opera role">
+          <input class="role-input" type="radio" name="role" id="role-sheng" />
+          <label class="role-card sheng" for="role-sheng">
+            <span class="card-index">I · ZHANG JUNRUI</span>
+            <svg class="opera-portrait portrait-sheng" viewBox="0 0 160 190" aria-hidden="true"><path class="hat" d="M35 51 Q80 8 125 51 L119 73 H41Z"/><path class="hat-detail" d="M53 47 Q80 26 107 47"/><ellipse class="face" cx="80" cy="96" rx="39" ry="49"/><path class="brow" d="M54 84 Q63 78 70 84 M90 84 Q98 78 107 84"/><path class="eye" d="M57 94 Q63 89 69 94 M91 94 Q98 89 104 94"/><path class="nose" d="M80 95 L76 112 L83 112"/><path class="mouth" d="M69 126 Q80 132 91 126"/><path class="collar" d="M39 157 Q80 131 121 157 L130 190 H30Z"/></svg>
+            <span class="role-name">Sheng <b>生</b></span><span class="role-key">dignity · resolve</span>
+          </label>
+
+          <input class="role-input" type="radio" name="role" id="role-dan" />
+          <label class="role-card dan" for="role-dan">
+            <span class="card-index">II · YANG YUHUAN</span>
+            <svg class="opera-portrait portrait-dan" viewBox="0 0 160 190" aria-hidden="true"><path class="crown" d="M42 66 L48 25 L63 45 L80 12 L97 45 L112 25 L118 66Z"/><circle class="jewel" cx="80" cy="30" r="7"/><path class="tassel" d="M48 46 Q32 72 42 98 M112 46 Q128 72 118 98"/><ellipse class="face" cx="80" cy="103" rx="37" ry="46"/><path class="brow" d="M54 91 Q63 84 70 91 M90 91 Q98 84 106 91"/><path class="eye" d="M57 101 Q63 96 69 101 M91 101 Q98 96 104 101"/><path class="nose" d="M80 102 L77 116 L83 116"/><path class="mouth" d="M70 129 Q80 135 90 129"/><path class="collar" d="M36 161 Q80 140 124 161 L132 190 H28Z"/></svg>
+            <span class="role-name">Dan <b>旦</b></span><span class="role-key">grace · expression</span>
+          </label>
+
+          <input class="role-input" type="radio" name="role" id="role-jing" />
+          <label class="role-card jing" for="role-jing">
+            <span class="card-index">III · GUAN YU</span>
+            <svg class="opera-portrait portrait-jing" viewBox="0 0 160 190" aria-hidden="true"><path class="helmet" d="M35 58 Q80 12 125 58 L115 73 H45Z"/><path class="helmet-detail" d="M80 18 L80 61 M52 48 L68 63 M108 48 L92 63"/><ellipse class="face" cx="80" cy="98" rx="39" ry="50"/><path class="face-line" d="M80 52 L80 143 M46 84 Q64 70 78 83 M114 84 Q96 70 82 83"/><path class="eye" d="M54 94 Q63 87 72 95 M88 95 Q98 87 106 94"/><path class="nose" d="M80 95 L76 114 L83 114"/><path class="mouth" d="M68 126 Q80 132 92 126"/><path class="beard" d="M56 129 Q59 172 80 186 Q101 172 104 129 Q96 146 80 151 Q64 146 56 129Z"/><path class="collar" d="M30 165 Q80 142 130 165 V190 H30Z"/></svg>
+            <span class="role-name">Jing <b>净</b></span><span class="role-key">paint · presence</span>
+          </label>
+
+          <input class="role-input" type="radio" name="role" id="role-chou" />
+          <label class="role-card chou" for="role-chou">
+            <span class="card-index">IV · LIU LIHUA</span>
+            <svg class="opera-portrait portrait-chou" viewBox="0 0 160 190" aria-hidden="true"><path class="cap" d="M42 61 Q80 28 118 61 L111 75 H49Z"/><ellipse class="face" cx="80" cy="102" rx="38" ry="48"/><path class="brow" d="M54 90 Q64 81 73 90 M88 90 Q99 81 107 90"/><path class="eye" d="M57 101 Q64 95 70 101 M90 101 Q98 95 104 101"/><rect class="nose-patch" x="70" y="105" width="21" height="19" rx="2"/><path class="mouth" d="M68 132 Q80 141 93 130"/><path class="collar" d="M34 163 Q80 141 126 163 L133 190 H27Z"/></svg>
+            <span class="role-name">Chou <b>丑</b></span><span class="role-key">wit · surprise</span>
+          </label>
+
+          <div class="role-detail" aria-live="polite">
+            <article class="detail-placeholder">
+              <p class="detail-kicker">THE PROGRAMME IS WAITING</p>
+              <h3>Choose a portrait above.</h3>
+              <p>Each figure opens a small visual introduction to one Peking Opera role category.</p>
+            </article>
+            <article class="detail-panel panel-sheng">
+              <p class="detail-kicker">SHENG / 生</p><h3>A figure of bearing</h3>
+              <p class="bridge"><strong>A leading scholar, hero, or warrior.</strong></p>
+              <p>A broad male-role category shaped by voice, movement, costume, and bearing.</p>
+            </article>
+            <article class="detail-panel panel-dan">
+              <p class="detail-kicker">DAN / 旦</p><h3>Expression in motion</h3>
+              <p class="bridge"><strong>An expressive central character.</strong></p>
+              <p>A broad female-role category with many branches and expressive gesture.</p>
+            </article>
+            <article class="detail-panel panel-jing">
+              <p class="detail-kicker">JING / 净</p><h3>Made to be seen</h3>
+              <p class="bridge"><strong>A bold, larger-than-life stage presence.</strong></p>
+              <p>Painted-face designs and forceful performance—never simply “a villain.”</p>
+            </article>
+            <article class="detail-panel panel-chou">
+              <p class="detail-kicker">CHOU / 丑</p><h3>The energy shifts</h3>
+              <p class="bridge"><strong>Comic energy, wit, or surprise.</strong></p>
+              <p>Humor, speech, and lively movement can be clever as well as funny.</p>
+            </article>
+            <p class="detail-caption">A familiar theatre bridge is only a starting point—not a direct Western equivalent.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="seat-section" aria-labelledby="seat-title">
+        <input class="curtain-input" type="checkbox" id="curtain-open" />
+        <div class="seat-copy">
+          <p class="section-number">03 / TAKE YOUR SEAT</p>
+          <h2 id="seat-title">Find your seat.<br />Wait for the curtain.</h2>
+          <p>Every first performance begins with a small act of arrival.</p>
+          <fieldset class="seat-picker">
+            <legend>Choose one seat</legend>
+            <div class="seat-grid">
+              <input class="seat-input" type="radio" name="seat" id="seat-a1" /><label for="seat-a1" aria-label="Choose seat A 1">A1</label>
+              <input class="seat-input" type="radio" name="seat" id="seat-a2" /><label for="seat-a2" aria-label="Choose seat A 2">A2</label>
+              <input class="seat-input" type="radio" name="seat" id="seat-a3" /><label for="seat-a3" aria-label="Choose seat A 3">A3</label>
+              <input class="seat-input" type="radio" name="seat" id="seat-b1" /><label for="seat-b1" aria-label="Choose seat B 1">B1</label>
+              <input class="seat-input" type="radio" name="seat" id="seat-b2" /><label for="seat-b2" aria-label="Choose seat B 2">B2</label>
+              <input class="seat-input" type="radio" name="seat" id="seat-b3" /><label for="seat-b3" aria-label="Choose seat B 3">B3</label>
+            </div>
+            <p class="seat-ticket">Your ticket: <strong></strong></p>
+          </fieldset>
+          <label class="curtain-button" for="curtain-open"><span class="button-closed">Choose a seat first</span><span class="button-open">Raise the curtain</span></label>
+        </div>
+        <div class="seat-visual" aria-label="A small stage. The curtain opens after you choose a seat and activate the curtain control."><span class="spot spot-one"></span><span class="spot spot-two"></span><span class="spot spot-three"></span><div class="stage-curtain stage-curtain-left"></div><div class="stage-curtain stage-curtain-right"></div><p class="stage-message">The stage is ready.<br /><span>Continue to the visual cue ↓</span></p><div class="audience"></div></div>
+      </section>
+
+      <section class="challenge" aria-labelledby="challenge-title">
+        <div class="section-heading challenge-heading">
+          <div><p class="section-number">04 / STAGE CUE</p><h2 id="challenge-title">Look closely.</h2></div>
+          <p class="section-note">A small visual cue. One gentle guess.</p>
+        </div>
+        <div class="challenge-layout">
+          <article class="cue-card">
+            <p class="cue-label">THE CURTAIN OPENS ON…</p>
+            <div class="cue-symbol" aria-hidden="true">
+              <svg viewBox="0 0 160 160" focusable="false">
+                <path class="cue-head" d="M47 83 Q47 37 80 27 Q113 37 113 83 L106 123 Q80 143 54 123Z" />
+                <path class="cue-crown" d="M48 70 Q80 18 112 70 L105 79 H55Z" />
+                <path class="cue-shoulders" d="M30 154 Q80 117 130 154" />
+                <text x="80" y="113" text-anchor="middle">?</text>
+              </svg>
+            </div>
+            <h3>Painted face.<br />Bold colour.<br />Powerful energy.</h3>
+            <p>Which role might this be?</p>
+          </article>
+
+          <div class="answer-area">
+            <fieldset>
+              <legend>Choose one answer</legend>
+              <input type="radio" name="cue" id="cue-sheng" /><label for="cue-sheng">Sheng <span>生</span></label>
+              <input type="radio" name="cue" id="cue-dan" /><label for="cue-dan">Dan <span>旦</span></label>
+              <input type="radio" name="cue" id="cue-jing" /><label for="cue-jing">Jing <span>净</span></label>
+              <input type="radio" name="cue" id="cue-chou" /><label for="cue-chou">Chou <span>丑</span></label>
+            </fieldset>
+            <div class="feedback feedback-default">Choose a role to reveal a gentle explanation.</div>
+            <div class="feedback feedback-jing"><strong>Jing / 净 is a useful place to begin.</strong> Painted-face designs, bold visual contrast, and forceful stage presence are cues often associated with this broad role category.</div>
+            <div class="feedback feedback-other"><strong>Try looking once more.</strong> Notice the painted face and strong colour contrast. This cue is designed to point toward Jing—not as a rule, but as one visual starting point.</div>
+            <article class="jing-dossier" aria-live="polite">
+              <p class="dossier-stamp">ARCHIVE CARD / 01</p>
+              <h3>Jing / 净<br /><em>The painted-face role</em></h3>
+              <p class="dossier-lead"><strong>Jing</strong>, also called <em>hualian</em> (花脸, “painted face”), is a broad performance category—not one single personality.</p>
+              <div class="dossier-grid">
+                <section>
+                  <span>LOOK FOR</span><h4>More than colour</h4>
+                  <p>Read the face pattern together with costume, voice, and movement. One colour is a clue—not a complete translation.</p>
+                </section>
+                <section>
+                  <span>ON STAGE</span><h4>Designed for distance</h4>
+                  <p>Bold makeup enlarges expression so that a character can be read from far across a theatre.</p>
+                </section>
+                <section>
+                  <span>REMEMBER</span><h4>A trained role system</h4>
+                  <p>Different Jing specialities emphasise singing, acting, or martial movement. Makeup is only one part of the craft.</p>
+                </section>
+              </div>
+              <div class="repertoire-bridge">
+                <p class="bridge-label">MEET A ROLE THROUGH A PLAY</p>
+                <div class="repertoire-grid">
+                  <section>
+                    <span class="repertoire-type">JING EXAMPLE / 净</span>
+                    <h4>Yao Qi</h4>
+                    <p class="play-title"><em>General Yao Qi</em></p>
+                    <p>An older general and father. When his son causes a grave mistake, Yao Qi has to carry both authority and worry onto the stage.</p>
+                  </section>
+                  <section class="bao-card">
+                    <span class="repertoire-type">JING EXAMPLE / 净</span>
+                    <h4>Bao Zheng</h4>
+                    <p class="play-title"><em>The Case of Executing Chen Shimei / 鍘美案</em></p>
+                    <p>A famous judge known for fairness. His story asks a simple but difficult question: can justice hold when power tries to protect itself?</p>
+                  </section>
+                </div>
+              </div>
+              <p class="dossier-note"><strong>What to notice:</strong> a role category is read through the whole performance, not through face colour alone.</p>
+              <p class="source-note">Learning note: simplified from introductions to Peking Opera role types by UNESCO and China Culture.</p>
+            </article>
+            <p class="future-note">CSS prototype: feedback changes after your selection. A future JavaScript version can offer varied cues, explanations, and progress.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="curtain-call" aria-labelledby="call-title">
+        <p class="section-number">05 / CURTAIN CALL</p>
+        <h2 id="call-title">You have opened<br /><em>one small curtain.</em></h2>
+        <p>Curiosity can be a beginning. Return to the programme and meet another role.</p>
+        <a class="button button-light" href="#explore">Explore another role <span aria-hidden="true">↑</span></a>
+      </section>
+    </main>
+
+    <footer>
+      <p>ENTER THE STAGE · A STUDENT HTML/CSS PROTOTYPE</p>
+      <p>Inspired by Peking Opera and Shanghai theatre culture. Role descriptions are simplified entry points for learning.</p>
+    </footer>
+  </body>
+</html>
